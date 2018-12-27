@@ -44,6 +44,7 @@ public class ContactListFragment extends Fragment {
         context = view.getContext();
         listView = view.findViewById(R.id.contact_list);
         final ArrayList<String> contacts = new ArrayList<>();
+
         contacts.add("ashwani\n9911416637");
         contacts.add("home\n7982278251");
         contacts.add("UntroddenLab\n8510015577");
@@ -67,9 +68,4 @@ public class ContactListFragment extends Fragment {
         return view;
     }
 
-    @Override
-    public void onResume() {
-
-        super.onResume();
-    }
 }

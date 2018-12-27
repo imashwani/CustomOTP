@@ -18,7 +18,6 @@ public class Contact {
     @ColumnInfo
     String otp;
 
-
     @ColumnInfo
     String time;
 
